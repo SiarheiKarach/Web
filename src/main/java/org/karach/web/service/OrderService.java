@@ -2,9 +2,10 @@ package org.karach.web.service;
 
 import org.karach.web.dao.OrderDAO;
 import org.karach.web.model.Order;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class OrderService {
   private final OrderDAO orderDAO;
 

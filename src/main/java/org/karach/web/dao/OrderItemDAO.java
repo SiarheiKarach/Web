@@ -1,10 +1,11 @@
 package org.karach.web.dao;
 
 import org.karach.web.model.OrderItem;
+import org.springframework.stereotype.Component;
 
 import javax.persistence.EntityManager;
 import java.util.List;
-
+@Component
 public class OrderItemDAO {
   private final EntityManager entityManager;
 

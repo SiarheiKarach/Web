@@ -2,9 +2,10 @@ package org.karach.web.service;
 
 import org.karach.web.dao.AlbumDAO;
 import org.karach.web.model.Album;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class AlbumService {
   private final AlbumDAO albumDAO;
 

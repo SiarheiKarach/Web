@@ -1,10 +1,11 @@
 package org.karach.web.dao;
 
 import org.karach.web.model.Album;
+import org.springframework.stereotype.Component;
 
 import javax.persistence.EntityManager;
 import java.util.List;
-
+@Component
 public class AlbumDAO {
   private final EntityManager entityManager;
 

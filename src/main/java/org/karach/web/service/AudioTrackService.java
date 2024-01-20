@@ -2,9 +2,10 @@ package org.karach.web.service;
 
 import org.karach.web.dao.AudioTrackDAO;
 import org.karach.web.model.AudioTrack;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class AudioTrackService {
   private final AudioTrackDAO audioTrackDAO;
 

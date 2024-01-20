@@ -2,9 +2,10 @@
 
   import org.karach.web.dao.ReviewDAO;
   import org.karach.web.model.Review;
+  import org.springframework.stereotype.Service;
 
   import java.util.List;
-
+  @Service
   public class ReviewService {
     private final ReviewDAO reviewDAO;
 

@@ -2,9 +2,10 @@ package org.karach.web.service;
 
 import org.karach.web.dao.UserDAO;
 import org.karach.web.model.User;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
   public class UserService {
     private final UserDAO userDAO;
 

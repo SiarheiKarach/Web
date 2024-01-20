@@ -1,11 +1,12 @@
 package org.karach.web.dao;
 
 import org.karach.web.model.User;
+import org.springframework.stereotype.Component;
 
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
 import java.util.List;
-
+@Component
 public class UserDAO {
   private final EntityManager entityManager;
 
