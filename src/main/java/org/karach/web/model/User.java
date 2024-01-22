@@ -8,12 +8,10 @@ public class User {
   private String userEmail;
   private String userPassword;
   private int clientBonus;
-  private String userRole;  // New field for user role (Client or Admin)
-
-  // Constructors, getters, and setters
+  private String userRole;
 
   public User() {
-    // Default constructor
+
   }
 
   public User(String userName, String userEmail, String userPassword, String userRole) {
